@@ -1,0 +1,240 @@
+/* first form */
+.container{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.startForm{
+    width: 12rem;
+    height: 4rem;
+    margin: 14rem auto;
+    padding: auto;
+    text-align: center;
+    border: 1px solid rgb(204, 189, 189);
+    border-radius: 3px;
+}
+
+.label{
+    margin: 1rem auto;
+}
+
+.buttons{
+    margin-top: 0.4rem;
+}
+
+.yes{
+    margin-right: 0.1rem;
+}
+.yes:hover{
+    cursor: pointer;
+}
+.no{
+    margin-left: 0.1rem;
+}
+.no:hover{
+    cursor: pointer;
+}
+
+
+/*second form*/
+
+.resumeForm{
+    text-align: -webkit-center;
+    margin-top: 3rem;
+}
+.form1{
+    display: none;
+    flex-direction: column;
+    border: 1px solid rgb(204, 189, 189);
+    width: 28rem;
+    height: 34rem;
+    border-radius: 3px;
+
+}
+.names{
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+    display: flex;
+}
+.firstname{
+    margin: auto;
+}
+.lastname{
+    margin: auto;
+}
+.first{
+    margin: 0 5rem 1.3rem 0;
+    
+}
+.inpfirst{
+    width: 10rem;
+}
+.last{
+    margin: 0 5rem 1.3rem 0;
+}
+.inplast{
+    width: 10rem;
+}
+.profilediv{
+    margin: 0 0 1.3rem 0;
+}
+.genderdiv{
+    margin: 0 0 1.2rem 0;
+}
+.gender{
+
+}
+.selectgender{
+    margin: 0 0 0 0.5rem;
+}
+.mobilediv{
+    margin-bottom: 1.3rem;
+}
+.inpmob{
+    margin-left: 0.5rem;
+    width: 14rem;
+}
+.emaildiv{
+    margin-bottom: 1.3rem;
+}
+.inpemail{
+    margin-left: 0.5rem;
+    width: 14rem;
+}
+.addressdiv{
+    margin-bottom: 1.3rem;
+}
+.inpaddress{
+    margin-left: 0.5rem;
+    width: 14rem;
+}
+.educationdiv{
+    margin-bottom: 1.3rem;
+}
+.inpeducation{
+    margin-left: 0.5rem;
+    width: 14rem;
+}
+.datediv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.3rem;
+}
+.startdiv{
+    margin-right: 0.5rem;
+}
+.enddiv{
+    margin-left: 0.5rem;
+}
+.streamdiv{
+    margin-bottom: -1rem;
+}
+.inpstream{
+    margin-left: 0.5rem;
+    width: 14rem;
+}
+.submit{
+    width: 4rem;
+    margin: auto;
+    
+}
+.submit:hover{
+    cursor: pointer;
+}
+
+/* main content */
+
+.mainContent{
+    display: none;
+    width: 40rem;
+    margin: auto;
+}
+.title{
+    text-align: center;
+}
+.subContent{
+    border: 0.001px solid rgb(204, 189, 189);
+   margin-bottom: 1rem;
+    border-radius: 3px;
+}
+.header1{
+    display: flex;
+}
+.download{
+    width: 6rem;
+    height: 2rem;
+    margin: auto 1rem auto 1rem;
+    border-radius: 6px;
+}
+.download:hover{
+    cursor: pointer;
+}
+
+.edit{
+    width: 3.5rem;
+    height: 1.9rem;
+    margin: auto auto auto 1rem;
+    border-radius: 6px;
+
+}
+.edit:hover{
+    cursor: pointer;
+}
+.nameOf{
+  margin-left: 1rem;
+}
+.lastOf{
+    margin-left: 0.5rem;
+}
+.header2{
+    margin-left: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.p{
+    margin: 0;
+}
+
+.content{
+    width: 25em;
+    margin: auto;
+}
+.contentEdu{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.contentEdu1{
+    margin: 0 auto 0 auto;
+}
+.contentEdu2{
+    font-size: 0.9rem;
+    margin: 0 auto 0 auto;
+}
+.edup{
+    margin: 0;
+}
+.startEnd{
+    display: flex;
+}
+
+.contentEdu3{
+    margin: auto;
+}
+
+/*jobseditFOrm*/
+
+.jobsEditForm{
+    display: none;
+    position: fixed;
+    top: 10rem;
+    right: 30rem;
+    background-color: antiquewhite;
+    width: 25rem;
+    margin: auto;
+    text-align: center;
+}
+
+.jobsFormTitle{
+  font-size: 2rem;
+}
